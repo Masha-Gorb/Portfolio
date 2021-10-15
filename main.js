@@ -47,14 +47,14 @@ function createPlayer(playerNumber, objectName) {
     $progressbar.appendChild($name);
     $character.appendChild($img);
 
-    document.querySelector('div.arenas').appendChild($player)
+    // document.querySelector('.arenas').appendChild($player)
     arenas.appendChild($player)
 }
-
+// document.querySelector('.arenas').appendChild($player)
 const arenas = document.querySelector('.arenas');
-
 
 createPlayer('player1', player1);
 createPlayer('player2', player2);
 player1.attack();
 player2.attack();
+alert('hui');
