@@ -48,9 +48,11 @@ function createPlayer(playerNumber, objectName) {
     $character.appendChild($img);
 
     document.querySelector('div.arenas').appendChild($player)
-    const arenas = document.querySelector('.arenas');
     arenas.appendChild($player)
 }
+
+const arenas = document.querySelector('.arenas');
+
 
 createPlayer('player1', player1);
 createPlayer('player2', player2);
