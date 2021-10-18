@@ -57,4 +57,3 @@ createPlayer('player1', player1);
 createPlayer('player2', player2);
 player1.attack();
 player2.attack();
-alert('hui');
