@@ -1,4 +1,6 @@
 .nav {
-    background-color: blueviolet;
-    border: 2pt solid #282c34;
+    display: flex;
+    width: 300px;
+    border: 2pt solid #969696;
+    justify-content: space-around;
 }
