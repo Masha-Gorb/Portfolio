@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    height: 400px;
+    background-color: #dda1ff;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    background-color: #bc78ff;
+    margin-right: 100px;
+    height: 200px;
+    font-size: 18pt;
+}
+
+.mainAvatar {
+    width: 350px;
+    height: 250px;
+}
