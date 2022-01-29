@@ -1,0 +1,25 @@
+.contacts {
+    display: flex;
+    height: 300px;
+    background-color: #ffeca1;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsText {
+    background-color: #ffffff;
+    margin-right: 100px;
+    height: 50px;
+    width: 100px;
+    font-size: 18pt;
+}
+
+.contactsContainer {
+    width: 350px;
+    height: 250px;
+}
+
+.contactsButton {
+    background-color: #ff5741;
+    font-size: 18pt;
+}
