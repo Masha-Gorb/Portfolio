@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 type UserType = {
   id: number
@@ -31,6 +31,8 @@ const addresses: AdressesType = {
 
 const updateUserAddress = (userID: number, key: string, newValue: string) => {
   return {...addresses,
-    [userID]: {...addresses[key], [key]: newValue}
+    [userID]: {...addresses[userID], [key]: newValue}
   }
 }
+
+console.log(updateUserAddress(2, "city", "Dnepropetrovsk"))
